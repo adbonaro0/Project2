@@ -1,0 +1,29 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "COSC 331 project 2 REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx babel-node -- ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adbonaro0/Project2.git"
+  },
+  "author": "Ashley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adbonaro0/Project2/issues"
+  },
+  "homepage": "https://github.com/adbonaro0/Project2#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
+    "nodemon": "^1.17.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
